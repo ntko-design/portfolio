@@ -1,0 +1,1 @@
+"use strict";if($("body.projects").length){var $window=$(window);$window.scroll(function(){825<=$(window).width()&&($window.scrollTop()>=context_top?document.getElementById("top_context_link").setAttribute("tabindex",-1):document.getElementById("top_context_link").setAttribute("tabindex",0))})}
