@@ -744,12 +744,14 @@ font-size: 1.6rem;
 
   #Dropdown_bg {
     background-image: url("../img/Dropdown-images/Dropdown-bg-tablet.jpg");
+    background-size: cover;
+    background-position: left bottom;
   }
 
   #ListView_bg {
     background-image: url("../img/ListView-images/ListView-bg-tablet.jpg");
     background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
 }
 
@@ -994,7 +996,7 @@ font-size: 1.6rem;
   #ListView_bg {
     background-image: url("../img/ListView-images/ListView-bg-desktop.jpg");
     background-size: contain;
-    background-position: right center;
+    background-position: right bottom;
   }
 
   .homepage_bio p{
