@@ -485,7 +485,7 @@ font-size: 1.6rem;
   transition-duration: 0.5s;
 }
 
-.homepage_bio a:hover, .homepage_bio a:focus {
+.homepage_bio a:hover, .homepage_bio a:focus, .content_order a {
   color: #44DBD4;
   transition-duration: 0.5s;
 }
@@ -1058,7 +1058,7 @@ font-size: 1.6rem;
   }
 
   .project_logo {
-    width: 12rem;
+    width: 10.05rem;
     margin: 0;
   }
 
