@@ -490,6 +490,11 @@ font-size: 1.6rem;
   transition-duration: 0.5s;
 }
 
+.content_order a:hover, .content_order a:focus {
+  color: #99F5F0;
+  transition-duration: 0.5s;
+}
+
 .project_summary {
   transition-duration: 0.5s;
 }
