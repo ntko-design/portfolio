@@ -118,6 +118,55 @@ if ($('body.projects').length) {
         }
     });
 
+
+    
+
     // Running scripts on certain pages learned from
     // https://stackoverflow.com/questions/45551023/how-to-run-a-script-in-certain-pages-only-jquery
 }
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+    var grey_pos = $('.process').offset().top;
+    var black_pos = $('.solution').offset().top;
+    var white_pos = $('.reflection').offset().top;
+    var header_pos = $('header').offset().top;
+    var scroll = $(window).scrollTop();
+
+    if (header_pos < grey_pos || white_pos < header_pos) {
+        $('header').removeClass('grey_mode');
+        $('header').removeClass('black_mode');
+      $('header').addClass('white_mode');
+      document.getElementById("NK_logo").src = "img/site-wide-assets/blue-logo.svg"
+    }
+    else if (header_pos > black_pos) {
+        $('header').addClass('black_mode');
+      $('header').removeClass('white_mode');
+      $('header').removeClass('grey_mode');
+      document.getElementById("NK_logo").src = "img/site-wide-assets/white-logo.svg"
+    }
+    else {
+        $('header').addClass('grey_mode');
+      $('header').removeClass('white_mode');
+      $('header').removeClass('black_mode');
+      document.getElementById("NK_logo").src = "img/site-wide-assets/blue-logo.svg"
+    }
+  })
+})
+
+function copyEmail() {
+     // Copy the text inside the text field
+    navigator.clipboard.writeText("nicholas.thko@gmail.com");
+
+  }
+
+function snackbar() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar");
+  
+    // Add the "show" class to DIV
+    x.className = "show";
+  
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
