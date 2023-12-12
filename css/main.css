@@ -496,6 +496,21 @@ footer img {
   margin: 1rem;
 }
 
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 1.26vw;
+}
+
+.project_cluster {
+  width: 100%;
+}
+
+.sideproject_logo {
+  width: 100%;
+}
+
 @media (min-width: 350px) {
 
   .companies {
@@ -1277,6 +1292,14 @@ footer img {
   #up_arrow {
     width: 0.66rem;
   }
+
+  .showcase {
+    flex-direction: row;
+  }
+  
+  .project_cluster {
+    width: 50%;
+  }
 }
 
 
@@ -1522,6 +1545,44 @@ footer img {
 
   .directory {
     padding: 3rem 0 12rem 0;
+  }
+
+  .showcase {
+    flex-direction: row;
+  }
+  
+  .project_cluster {
+    width: 23.5%;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Desktop size */
+
+  .side_grids_8of12 {
+    max-width: 1214.25px;
+    margin: 0 auto;
+  }
+
+  .side_grids_10of12 {
+    max-width: 1521.5px;
+    margin: 0 auto;
+  }
+
+  .side_grids_10of12 .content_clusters > div {
+    column-gap: 25.152px;
+  }
+
+  .context_sections div {
+    width: 287.05px;
+  }
+  
+  .context_sections div:nth-child(3) {
+    width: 589.89px;
+  }
+
+  .showcase {
+    column-gap: 24.2968px;
   }
 }
 
