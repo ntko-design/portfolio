@@ -62,7 +62,7 @@ h3 {
   color: #545454;
 }
 
-p {
+p, li {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: calc(1.33vw + 0.75rem);
@@ -509,6 +509,17 @@ footer img {
 
 .sideproject_logo {
   width: 100%;
+}
+
+.about_me_blurb {
+  display: flex;
+  flex-direction: column;
+  row-gap: calc(1.3vw - 0.05rem);
+  padding: 0 0 calc(2.6vw - 0.1rem) 0;
+}
+
+.portrait_photo {
+  width: 40%;
 }
 
 @media (min-width: 350px) {
@@ -1120,7 +1131,7 @@ footer img {
     font-size: 1rem;
   }
 
-  p {
+  p, li {
     font-size: 1.25rem;
     line-height: 2.2rem;
   }
@@ -1298,7 +1309,25 @@ footer img {
   }
   
   .project_cluster {
-    width: 50%;
+    width: 49%;
+  }
+
+  .sideproject_logo {
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+    width: auto;
+  }
+
+  .about_me_blurb {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0 0 1.25rem 0;
+  }
+  
+  .portrait_photo {
+    width: 40%;
   }
 }
 
@@ -1476,6 +1505,18 @@ footer img {
     left: auto;
     right: auto;
   }
+
+  .about_me_blurb {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0 0 1.25rem 0;
+  }
+  
+  .portrait_photo {
+    width: auto;
+    max-width: 250px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1550,10 +1591,16 @@ footer img {
   .showcase {
     flex-direction: row;
   }
-  
-  .project_cluster {
-    width: 23.5%;
+
+  .about_me_blurb {
+    flex-direction: row;
+    column-gap: 2rem;
+    align-items: center;
   }
+  
+  /* .project_cluster {
+    width: 23.5%;
+  } */
 }
 
 @media (min-width: 1920px) {
