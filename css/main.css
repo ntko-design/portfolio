@@ -276,7 +276,7 @@ iframe {
 }
 
 #project_org img {
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .project a {
@@ -501,9 +501,14 @@ footer img {
   flex-wrap: wrap;
   flex-direction: column;
   column-gap: 1.26vw;
+  row-gap: calc(1.25vw + 1rem);
 }
 
 .project_cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 100%;
 }
 
@@ -1039,6 +1044,7 @@ footer img {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .reflection {
@@ -1304,13 +1310,6 @@ footer img {
     width: 0.66rem;
   }
 
-  .showcase {
-    flex-direction: row;
-  }
-  
-  .project_cluster {
-    width: 49%;
-  }
 
   .sideproject_logo {
     display: flex;
@@ -1517,6 +1516,34 @@ footer img {
     width: auto;
     max-width: 250px;
   }
+
+  .showcase {
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 1.75rem;
+  }
+
+  .project_cluster {
+    align-items: start;
+    text-align: left;
+    width: 49%;
+  }
+
+  .project_cluster h2 {
+    padding: 0 1rem 0 0;
+  }
+
+  .sideproject_logo {
+    width: 100%;
+  }
+
+  .works_image {
+    border-radius: 20px;
+  }
+  
+  #project_org img {
+    border-radius: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1535,7 +1562,7 @@ footer img {
   }
 
   #project_intro {
-    padding-top: 4rem;
+    padding-top: 4.25rem;
   }
 
   .side_grids_8of12 {
@@ -1590,6 +1617,10 @@ footer img {
 
   .showcase {
     flex-direction: row;
+  }
+
+  .project_cluster {
+    width: 49%;
   }
 
   .about_me_blurb {
