@@ -23,12 +23,6 @@
       }
     </style>
   </noscript>
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
 </head>
 
 
@@ -41,12 +35,12 @@
           <a href="index.html"><img src="img/site-wide-assets/blue-logo.svg" id="NK_logo" alt="Portfolio Logo"></a>
         </div>
 
-        <nav class="hamburger_menu">
+        <nav id="hamburger_menu">
           <ul class="menu">
             <li class="dropdown dropdown-2">
-              <img id="hamburger_menu" src="img/site-wide-assets/hamburger.svg" alt="Hamburger menu">
+              <img src="img/site-wide-assets/hamburger.svg" alt="Hamburger menu">
               <ul class="dropdown_menu dropdown_menu-2">
-                <li class="dropdown_item-1"><a href="index.html">Portfolio</a></li>
+                <li class="dropdown_item-1"><a href="#portfolio_start">Portfolio</a></li>
                 <li class="dropdown_item-2"><a href="about.html">About</a></li>
                 <li class="dropdown_item-3"><a href="Nicholas Ko Resume.pdf" target="_blank">Résumé</a></li>
               </ul>
@@ -54,8 +48,8 @@
           </ul>
         </nav>
 
-        <nav class="full_menu">
-          <a href="index.html">Portfolio</a>
+        <nav id="full_menu">
+          <a href="#portfolio_start">Portfolio</a>
           <a href="about.html">About</a>
           <a href="Nicholas Ko Resume.pdf" target="_blank">Résumé</a>
         </nav>
@@ -65,7 +59,7 @@
     <main>
       <section>
         <div class="homepage_bio">
-          <div id="intro" class="side_grids_8of12">
+          <div id="homepage_intro" class="side_grids_8of12">
             <div id="blurb">
               <h1 class="fade_in_sequence1 no_fade">Nic<mark>hola</mark>s Ko.</h1>
               <p class="fade_in_sequence2 no_fade">
@@ -90,8 +84,8 @@
           </div>
         </div>
 
-        <div id="project_org" class="side_grids_8of12">
-          <div class="project fade_in_sequence3 no_fade">
+        <div id="project_collection" class="side_grids_8of12">
+          <div class="project_preview fade_in_sequence3 no_fade">
             <a href="ListView.html">
               <figure>
                 <img src="img/ListView-images/ListView-preview-lowres.jpg"
@@ -109,7 +103,7 @@
             <p>Saving experts time with a display mode that presents more competitor information simultaneously.</p>
           </div>
 
-          <div class="project fade_in_sequence3 no_fade">
+          <div class="project_preview fade_in_sequence3 no_fade">
             <a href="DesignSystem.html">
               <figure>
                 <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
@@ -128,7 +122,7 @@
               components.</p>
           </div>
 
-          <div class="project fade_in_sequence3 no_fade">
+          <div class="project_preview fade_in_sequence3 no_fade">
             <a href="LEGO.html">
               <figure>
                 <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
@@ -145,7 +139,7 @@
             <p>Connecting children and parents through interactive storytelling with LEGO—no matter the distance.</p>
           </div>
 
-          <div class="project fade_in_sequence3 no_fade">
+          <div class="project_preview fade_in_sequence3 no_fade">
             <!-- <a href="TxTSquad.html"> -->
             <figure>
               <img src="img/TxTSquad-images/TxTSquad-preview-lowres.jpg"
@@ -166,7 +160,7 @@
             <p>Portfolio piece still in progress. Check back later!</p>
           </div>
 
-          <div class="project fade_in_sequence3 no_fade">
+          <div class="project_preview fade_in_sequence3 no_fade">
             <a href="SideProjects.html">
               <figure>
                 <img src="img/SideProject-images/SideProjects-preview-lowres.jpg"
