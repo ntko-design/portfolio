@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
 
   <title>Nicholas Ko</title>
 
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,700" rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
   <noscript>
     <style>
@@ -65,24 +67,24 @@
         <div class="homepage_bio">
           <div id="about_intro" class="side_grids_8of12">
             <div class="fade_in_sequence1 about_me_blurb">
-              <img class="portrait_photo" src="img/site-wide-assets/me.png" alt="Self portrait">
-              <h2 class="no_fade">I like making pretty interfaces to help people work better.</h2>
+              <img class="portrait_photo" src="img/site-wide-assets/me.png" alt="Self portrait" data-aos="fade">
+              <h2 class="no_fade" data-aos="fade">I like making pretty interfaces to help people work better.</h2>
             </div>
 
-            <p class="fade_in_sequence2 no_fade">From doodling and making paper crafts, to designing high school
+            <p class="fade_in_sequence2 no_fade" data-aos="fade">From doodling and making paper crafts, to designing high school
               yearbook spreads and pursuing a formal degree in design, I always felt that I was meant to do something in
               the creative field—and this passion led me to a career in product and UX. Though my understanding of
               the industry only continues to grow, I know one thing for sure: creating seamless and engaging experiences
               that captivate people and streamline how they approach their craft is what I strive to accomplish in each
               and every opportunity I come across.</p>
 
-            <p class="fade_in_sequence3 no_fade">Having spent the better part of 3 years working in enterprise and B2B
+            <p class="fade_in_sequence3 no_fade" data-aos="fade">Having spent the better part of 3 years working in enterprise and B2B
               startup environments, I come from a background of designing and researching for SaaS products, and have
               extensive experience interfacing with enterprise clients and users. In particular, I helped create and
               refine experiences for an enterprise security and management platform, competitive intelligence platform,
               and a texting web application for medical professionals.</p>
 
-            <div>
+            <div data-aos="fade">
               <p class="fade_in_sequence3 no_fade">Outside of work, my free time is split between various hobbies:</p>
               <ul class="fade_in_sequence3">
                 <li>🎮 Video games</li>
@@ -136,15 +138,20 @@
       </div>
     </div>
   </footer>
+  </div>
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({
+      duration: 750,
+      once: true,
+    });</script>
   <script src="js/lazysizes.min.js"></script>
   <script src="js/animation.js"></script>
 
-  </div>
 </body>
 
 </html>

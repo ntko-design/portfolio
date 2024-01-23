@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
 
   <title>Klue Design System</title>
 
@@ -11,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
   <noscript>
     <style>
@@ -56,7 +58,7 @@
         <div id="project_intro">
         </div>
 
-        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade">
+        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade transition-DesignSystem-large">
           <figure>
             <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
               data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
@@ -68,14 +70,15 @@
 
         <div class="context fade_in_sequence2 no_fade">
           <div class="project_heading side_grids_8of12">
-            <h1>Klue Design System</h1>
-            <p>A collection of design components I've created and maintained for Klue's design system volunteer
+            <h1 data-aos="fade">Klue Design System</h1>
+            <p data-aos="fade">A collection of design components I've created and maintained for Klue's design system
+              volunteer
               committee. My efforts lead to a comprehensive initiative that revamped the process of creating and
               documenting components to standardize token properties, simplify implementation, and enhance the end user
               experience.</p>
           </div>
 
-          <div class="context_sections side_grids_8of12">
+          <div class="context_sections side_grids_8of12" data-aos="fade">
             <div>
               <h2>Role</h2>
               <p>UI/UX Designer & Design System Volunteer</p>
@@ -94,8 +97,8 @@
 
           <div class="impact side_grids_8of12 fade_in_sequence2 no_fade">
             <div>
-              <h1>The Results</h1>
-              <div class="twin_section">
+              <h1 data-aos="fade">The Results</h1>
+              <div class="twin_section" data-aos="fade">
                 <div>
                   <div div class="insights">
                     <div>
@@ -137,13 +140,13 @@
           <div class="side_grids_8of12">
             <div class="content_clusters fade_in_sequence2 no_fade">
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>The Goal</h2>
                   <p>Lay the foundation of a unified design system to streamline development and elevate the core
                     product experience.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/DesignSystem-images/DesignSystem-A-status-lowres.jpg"
                       data-src="img/DesignSystem-images/DesignSystem-A-status.jpg"
@@ -157,14 +160,14 @@
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>Why can't I hold all these properties?</h2>
                   <p>Auditing Klue's products, I found numerous inconsistencies across components. Variants had wildly
                     different combinations of spacing, sizes, and elements, most likely because many were designed from
                     the ground up for each project.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/DesignSystem-images/DesignSystem-B-audit-lowres.jpg"
                       data-src="img/DesignSystem-images/DesignSystem-B-audit.jpg"
@@ -178,14 +181,14 @@
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>One component to rule them all</h2>
                   <p>I condensed components and variants by leveraging the then new Component Properties feature to make
                     base components more robust. This streamlined the ideation and iteration process for fellow
                     designers.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/DesignSystem-images/DesignSystem-C-properties-lowres.jpg"
                       data-src="img/DesignSystem-images/DesignSystem-C-properties.jpg"
@@ -199,14 +202,14 @@
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>He is speaking the language of devs</h2>
                   <p>Laying the foundation of a unified design system across design and code, base components were
                     created to enable easy adaptation for future work. I also collaborated closely with developers to
                     align design and code versions of components.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/DesignSystem-images/DesignSystem-D-documentation-lowres.jpg"
                       data-src="img/DesignSystem-images/DesignSystem-D-documentation.jpg" alt="List View documentation."
@@ -223,17 +226,19 @@
         <div class="grey_bg">
           <div class="solution">
             <div class="side_grids_10of12">
-              <h1 class="fade_in_sequence2 no_fade">The Outcome</h1>
+              <div data-aos="fade">
+                <h1 class="fade_in_sequence2 no_fade">The Outcome</h1>
+              </div>
 
               <div class="content_clusters fade_in_sequence2 no_fade">
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Branded</h2>
                     <p>Details like border radii and drop shadows were incorporated to establish a unified design
                       language across components.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-E-designlanguage-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-E-designlanguage.jpg"
@@ -245,12 +250,12 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Tokenized</h2>
                     <p>Token values in 4px intervals were used to determine variant sizes and component spacing.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-F-tokens-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-F-tokens.jpg"
@@ -264,13 +269,13 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Semantic</h2>
                     <p>Colours were chosen to represent 'Klue's voice,' important and interactive elements, as well as
                       semantic content.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-G-colours-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-G-colours.jpg"
@@ -284,13 +289,13 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Accessible</h2>
                     <p>Careful considerations were made to ensure designs are responsive and high contrast to comply
                       with WCAG 3.0 standards.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-H-WCAG-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-H-WCAG.jpg"
@@ -307,7 +312,7 @@
           </div>
         </div>
 
-        <div class="reflection">
+        <div class="reflection" data-aos="fade">
           <div class="side_grids_8of12 fade_in_sequence2 no_fade">
             <h2>Final Thoughts</h2>
             <p>As my first foray into design systems within a professional context, I had to learn how to effectively
@@ -318,7 +323,7 @@
           </div>
         </div>
 
-        <div class="directory">
+        <div class="directory" data-aos="fade">
           <div class="side_grids_8of12 fade_in_sequence2 no_fade">
             <a href="LEGO.html">
               <div>
@@ -381,6 +386,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({
+      duration: 750,
+      once: true,
+    });</script>
   <script src="js/lazysizes.min.js"></script>
   <script src="js/animation.js"></script>
 </body>

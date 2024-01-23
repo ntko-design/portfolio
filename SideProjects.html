@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
 
   <title>Side Projects</title>
 
@@ -11,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
   <noscript>
     <style>
@@ -68,66 +70,66 @@
 
         <div class="context fade_in_sequence2 no_fade">
           <div class="project_heading side_grids_8of12">
-            <h1>Side Projects</h1>
-            <p>A collection of projects I've done, ranging from freelance iconography and visual identity work for
+            <h1 data-aos="fade">Side Projects</h1>
+            <p data-aos="fade">A collection of projects I've done, ranging from freelance iconography and visual identity work for
               startups, non-profit organizations, and online communities, to personal projects for fun.</p>
           </div>
 
           <div class="showcase side_grids_8of12">
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/True-Step-Logo.jpg"
                 alt="Old Wobbly Parody Logo">
               <h2>True Step Physical Therapy & Performance</h2>
               <p>2023, Virtual Physiotherapy Startup</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/Old-Wobbly-Logo.jpg"
                 alt="Old Wobbly Parody Logo">
               <h2>Old Wobbly</h2>
               <p>2023, Personal Project</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/GND-Emotes.jpg" alt="Old Wobbly Parody Logo">
               <h2>GND Custom Emotes</h2>
               <p>2022, Online Discord Community</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/PS-Logos.jpg" alt="Old Wobbly Parody Logo">
               <h2>Phantasy Star Franchise Logos</h2>
               <p>2022, Personal Project</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/PSO2-GND.jpg" alt="Old Wobbly Parody Logo">
               <h2>Phantasy Star Online 2 - Global NPC District</h2>
               <p>2022, Online Discord Community</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/Cafe-Ship-3-Logo.jpg"
                 alt="Old Wobbly Parody Logo">
               <h2>Cafe Ship 3</h2>
               <p>2022, Online Discord Community</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/Lunar-New-Year-Meetup-Logo.jpg"
                 alt="Old Wobbly Parody Logo">
               <h2>Lunar New Year 2022 Meetup</h2>
               <p>2022, Event Logo</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/New-Year-Meetup-Logo.jpg"
                 alt="Old Wobbly Parody Logo">
               <h2>New Years Party 2022</h2>
               <p>2022, Event Logo</p>
             </div>
 
-            <div class="project_cluster">
+            <div class="project_cluster" data-aos="fade">
               <img class="sideproject_logo" src="img/SideProject-images/SFU-MUN-Logo.jpg" alt="SFU MUN Logo">
               <h2>Simon Fraser University Model United Nations</h2>
               <p>2015, University Club </p>
@@ -181,8 +183,14 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({
+      duration: 750,
+      once: true,
+    });</script>
   <script src="js/lazysizes.min.js"></script>
   <script src="js/animation.js"></script>
+  
 </body>
 
 </html>

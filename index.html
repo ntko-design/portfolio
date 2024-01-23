@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
 
   <title>Nicholas Ko</title>
 
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,700" rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <noscript>
     <style>
@@ -82,8 +84,8 @@
 
         <div id="project_collection" class="side_grids_8of12">
           <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="ListView.html">
-              <figure>
+            <a href="ListView.html" data-aos="fade">
+              <figure id="ListView-Prev-S" class="transition-ListView-small" onclick="ListViewTransition()">
                 <img src="img/ListView-images/ListView-preview-lowres.jpg"
                   data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
                   class="lazyload works_image">
@@ -92,15 +94,17 @@
               </figure>
             </a>
 
-            <a href="ListView.html">
-              <h2>Alerts List View</h2>
-            </a>
-            <h3 class="subheading roles_skills">B2B SaaS / Desktop / Feature Release</h3>
-            <p>Saving experts time with a display mode that presents more competitor information simultaneously.</p>
+            <div data-aos="fade">
+              <a href="ListView.html" onclick="ListViewTransition()">
+                <h2>Alerts List View</h2>
+              </a>
+              <h3 class="subheading roles_skills">B2B SaaS / Desktop / Feature Release</h3>
+              <p>Saving experts time with a display mode that presents more competitor information simultaneously.</p>
+            </div>
           </div>
 
-          <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="DesignSystem.html">
+          <div class="project_preview fade_in_sequence3 no_fade transition-DesignSystem-small">
+            <a href="DesignSystem.html" data-aos="fade">
               <figure>
                 <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
                   data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
@@ -110,16 +114,18 @@
               </figure>
             </a>
 
-            <a href="DesignSystem.html">
-              <h2>Klue Design System</h2>
-            </a>
-            <h3 class="subheading roles_skills">B2B SaaS / Desktop & Mobile / Design System</h3>
-            <p>Unifying the product and accelerating implementation through the creation and maintenance of design
-              components.</p>
+            <div data-aos="fade">
+              <a href="DesignSystem.html">
+                <h2>Klue Design System</h2>
+              </a>
+              <h3 class="subheading roles_skills">B2B SaaS / Desktop & Mobile / Design System</h3>
+              <p>Unifying the product and accelerating implementation through the creation and maintenance of design
+                components.</p>
+            </div>
           </div>
 
           <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="LEGO.html">
+            <a href="LEGO.html" data-aos="fade">
               <figure>
                 <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
                   alt="LEGO Storybricks preview." class="lazyload works_image">
@@ -128,16 +134,18 @@
               </figure>
             </a>
 
-            <a href="LEGO.html">
-              <h2>LEGO Storybricks</h2>
-            </a>
-            <h3 class="subheading roles_skills">UX Design Student Project / Tablet / Product Concept</h3>
-            <p>Connecting children and parents through interactive storytelling with LEGO—no matter the distance.</p>
+            <div data-aos="fade">
+              <a href="LEGO.html">
+                <h2>LEGO Storybricks</h2>
+              </a>
+              <h3 class="subheading roles_skills">UX Design Student Project / Tablet / Product Concept</h3>
+              <p>Connecting children and parents through interactive storytelling with LEGO—no matter the distance.</p>
+            </div>
           </div>
 
           <div class="project_preview fade_in_sequence3 no_fade">
             <!-- <a href="TxTSquad.html"> -->
-            <figure>
+            <figure data-aos="fade">
               <img src="img/TxTSquad-images/TxTSquad-preview-lowres.jpg"
                 data-src="img/TxTSquad-images/TxTSquad-preview.jpg" alt="TxTSquad preview."
                 class="lazyload works_image">
@@ -146,18 +154,20 @@
             </figure>
             <!-- </a> -->
 
-            <!-- <a href="TxTSquad.html"> -->
-            <!-- <h2>TxTSquad - Texting Platform for Professionals</h2> -->
-            <h2>TxTSquad - Coming soon!</h2>
-            <!-- </a> -->
-            <h3 class="subheading roles_skills">B2B SaaS / Desktop / Web Application Design</h3>
-            <!-- <p>Streamlining communication to help medical office assistants efficiently schedule patients and reduce
+            <div data-aos="fade">
+              <!-- <a href="TxTSquad.html"> -->
+              <!-- <h2>TxTSquad - Texting Platform for Professionals</h2> -->
+              <h2>TxTSquad - Coming soon!</h2>
+              <!-- </a> -->
+              <h3 class="subheading roles_skills">B2B SaaS / Desktop / Web Application Design</h3>
+              <!-- <p>Streamlining communication to help medical office assistants efficiently schedule patients and reduce
               no-shows.</p> -->
-            <p>Portfolio piece still in progress. Check back later!</p>
+              <p>Portfolio piece still in progress. Check back later!</p>
+            </div>
           </div>
 
           <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="SideProjects.html">
+            <a href="SideProjects.html" data-aos="fade">
               <figure>
                 <img src="img/SideProject-images/SideProjects-preview-lowres.jpg"
                   data-src="img/SideProject-images/SideProjects-preview.jpg" alt="Klue Design System preview."
@@ -167,11 +177,13 @@
               </figure>
             </a>
 
-            <a href="SideProjects.html">
-              <h2>Side Projects</h2>
-            </a>
-            <h3 class="subheading roles_skills">Logos & Branding / Vector & Graphic Design</h3>
-            <p>A compilation of personal projects done for fun, as well as miscellaneous freelance work.</p>
+            <div data-aos="fade">
+              <a href="SideProjects.html">
+                <h2>Side Projects</h2>
+              </a>
+              <h3 class="subheading roles_skills">Logos & Branding / Vector & Graphic Design</h3>
+              <p>A compilation of personal projects done for fun, as well as miscellaneous freelance work.</p>
+            </div>
           </div>
         </div>
   </div>
@@ -216,9 +228,14 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({
+      duration: 750,
+      once: true,
+    });</script>
   <script src="js/lazysizes.min.js"></script>
   <script src="js/animation.js"></script>
 

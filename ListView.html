@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
 
   <title>Alerts List View</title>
 
@@ -11,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
   <noscript>
     <style>
@@ -57,8 +59,8 @@
         <div id="project_intro">
         </div>
 
-        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade">
-          <figure>
+        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade removeHero">
+          <figure id="ListView-Prev-L" class="transition-ListView-large">
             <img src="img/ListView-images/ListView-preview-lowres.jpg"
               data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview." class="lazyload works_image">
             <noscript><img src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
@@ -68,18 +70,20 @@
 
         <div class="context fade_in_sequence2 no_fade">
           <div class="project_heading side_grids_8of12">
-            <h1>Alerts List View</h1>
-            <p>List View is a feature release designed to consolidate data for Alerts, Klue's competitor intelligence
+            <h1 data-aos="fade">Alerts List View</h1>
+            <p data-aos="fade">List View is a feature release designed to consolidate data for Alerts, Klue's competitor
+              intelligence
               aggregation and management platform. It enables the ability to efficiently filter out irrelevant
               information and highlight critical competitor news, addressing the increasing needs of users as they
               become more experienced with leveraging Klue in their workflows.</p>
 
-            <p id="disclaimer">Note: The content shown in the visuals of this portfolio project have been fabricated to
+            <p id="disclaimer" data-aos="fade">Note: The content shown in the visuals of this portfolio project have
+              been fabricated to
               safeguard Klue’s customer data, and any resemblance to actual companies, products, or events is purely
               coincidental.</p>
           </div>
 
-          <div class="context_sections side_grids_8of12">
+          <div class="context_sections side_grids_8of12" data-aos="fade">
             <div>
               <h2>Role</h2>
               <p>Lead UI/UX Designer</p>
@@ -98,8 +102,8 @@
 
           <div class="impact side_grids_8of12 fade_in_sequence2 no_fade">
             <div>
-              <h1>The Results</h1>
-              <div class="twin_section">
+              <h1 data-aos="fade">The Results</h1>
+              <div class="twin_section" data-aos="fade">
                 <div>
                   <div div class="insights">
                     <div>
@@ -140,13 +144,13 @@
           <div class="side_grids_8of12">
             <div class="content_clusters fade_in_sequence2 no_fade">
               <div>
-                <div class="large_section">
+                <div class="large_section scroll_fade" data-aos="fade">
                   <h2>The Goal</h2>
                   <p>Design a compact view for this 👇 to save experienced users time and effort when working with
                     competitor intel.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image scroll_fade" data-aos="fade">
                   <figure>
                     <img src="img/ListView-images/ListView-A-initialdesign-lowres.jpg"
                       data-src="img/ListView-images/ListView-A-initialdesign.jpg"
@@ -160,25 +164,25 @@
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>Break down, break down</h2>
                   <p>Determining the most important data for users gave clarity on next steps.</p>
                 </div>
 
-                <div class="video_wrapper">
+                <div class="video_wrapper" data-aos="fade">
                   <video autoplay loop muted playsinline src="img/ListView-images/ListView-B-Priority.mp4"
                     allowfullscreen title="List View Prioritizing Elements"></video>
                 </div>
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>Speaking with experts</h2>
                   <p>An initial prototype was made to test with users. My PM and I conducted qualitative research with 3
                     of Klue's most avid users to better cater the solution to experts.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/ListView-images/ListView-B2-research-lowres.jpg"
                       data-src="img/ListView-images/ListView-B2-research.jpg" alt="List View documentation."
@@ -190,7 +194,7 @@
               </div>
 
               <div>
-                <div class="twin_section">
+                <div class="twin_section" data-aos="fade">
                   <div>
                     <h2>To the drawing board</h2>
                     <p>The design passed through several iterations based on project requirements, business goals, and
@@ -215,7 +219,7 @@
                   </div>
                 </div>
 
-                <div class="video_wrapper">
+                <div class="video_wrapper" data-aos="fade">
                   <video autoplay loop muted playsinline src="img/ListView-images/ListView-C-Iterations.mp4"
                     allowfullscreen title="List View Prioritizing Elements"></video>
                 </div>
@@ -223,13 +227,13 @@
 
               <div>
                 <div class="the_one_with_Jackie_Chan">
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Key decision</h2>
                     <p>While I was hesitant at first as it seemed counterintuitive, adding a second line for content
                       preview ended up improving scanability.</p>
                   </div>
 
-                  <div>
+                  <div data-aos="fade">
                     <figure>
                       <img src="img/ListView-images/Jackie_Chan-lowres.jpg"
                         data-src="img/ListView-images/Jackie_Chan.png" alt="Confused Jackie Chan."
@@ -240,7 +244,7 @@
                   </div>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/ListView-images/ListView-D-twolines-lowres.jpg"
                       data-src="img/ListView-images/ListView-D-twolines.jpg"
@@ -253,14 +257,14 @@
               </div>
 
               <div>
-                <div class="large_section">
+                <div class="large_section" data-aos="fade">
                   <h2>Design considerations</h2>
                   <p>Existing components were leveraged to ensure WCAG compliance, though new components and variants
                     were made where necessary. Documentation was also done to align design with code, and to save myself
                     from PR review hell.</p>
                 </div>
 
-                <div class="content_image">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/ListView-images/ListView-E-considerations-lowres.jpg"
                       data-src="img/ListView-images/ListView-E-considerations.jpg" alt="List View documentation."
@@ -277,17 +281,19 @@
         <div class="grey_bg">
           <div class="solution">
             <div class="side_grids_10of12">
-              <h1 class="fade_in_sequence2 no_fade">The Solution</h1>
+              <div data-aos="fade">
+                <h1 class="fade_in_sequence2 no_fade">The Solution</h1>
+              </div>
 
               <div class="content_clusters fade_in_sequence2 no_fade">
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Compact</h2>
                     <p>Streamline work processes by tripling the amount of list items shown at a time, maximizing
                       content while minimizing scrolling.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/ListView-images/ListView-F-beforeafter-lowres.jpg"
                         data-src="img/ListView-images/ListView-F-beforeafter.jpg"
@@ -300,13 +306,13 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Digestible</h2>
                     <p>The most critical pieces of info are shown at a glance, while the rest only appear when
                       users take a deeper dive.</p>
                   </div>
 
-                  <div class="content_image">
+                  <div class="content_image" data-aos="fade">
                     <figure>
                       <img src="img/ListView-images/ListView-G-states-lowres.jpg"
                         data-src="img/ListView-images/ListView-G-states.jpg"
@@ -319,12 +325,12 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Synced</h2>
                     <p>Coordinated efforts were made to ensure a smooth dual release with a closely related feature.</p>
                   </div>
 
-                  <div class="stacked_images">
+                  <div class="stacked_images" data-aos="fade">
                     <div class="content_image">
                       <figure>
                         <img src="img/ListView-images/ListView-H-bulkedit-lowres.jpg"
@@ -338,13 +344,13 @@
                 </div>
 
                 <div>
-                  <div class="large_section">
+                  <div class="large_section" data-aos="fade">
                     <h2>Scalable</h2>
                     <p>Designed with future features in mind for easy integration—and to avoid pissing off the devs.
                     </p>
                   </div>
 
-                  <div class="stacked_images">
+                  <div class="stacked_images" data-aos="fade">
                     <div class="content_image">
                       <figure>
                         <img src="img/ListView-images/ListView-I-relatedalerts-lowres.jpg"
@@ -361,7 +367,7 @@
           </div>
         </div>
 
-        <div class="reflection">
+        <div class="reflection" data-aos="fade">
           <div class="side_grids_8of12 fade_in_sequence2 no_fade">
             <h2>Final Thoughts</h2>
             <p>"Present designs early and often" was this project's mantra. Showing both good and bad iterations
@@ -371,8 +377,8 @@
           </div>
         </div>
 
-        <div class="directory">
-          <div class="side_grids_8of12 fade_in_sequence2 no_fade">
+        <div class="directory" data-aos="fade">
+          <div class="side_grids_8of12 fade_in_sequence2 no_fade transition-DesignSystem-small">
             <a href="DesignSystem.html">
               <div>
                 <figure>
@@ -435,8 +441,15 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({
+      duration: 750,
+      once: true,
+    });</script>
+  <!-- https://www.youtube.com/watch?v=0kmFlBJIUkQ -->
   <script src="js/lazysizes.min.js"></script>
   <script src="js/animation.js"></script>
+
 </body>
 
 </html>
