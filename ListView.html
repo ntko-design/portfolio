@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <noscript>
     <style>
@@ -59,13 +59,16 @@
         <div id="project_intro">
         </div>
 
-        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade removeHero">
-          <figure id="ListView-Prev-L" class="transition-ListView-large">
-            <img src="img/ListView-images/ListView-preview-lowres.jpg"
-              data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview." class="lazyload works_image">
-            <noscript><img src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
-                class="works_image"></noscript>
-          </figure>
+        <div data-aos="fade" data-aos-duration="350">
+          <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade">
+            <figure id="ListView-Exit" class="transition-ListView">
+              <img src="img/ListView-images/ListView-preview-lowres.jpg"
+                data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
+                class="lazyload works_image">
+              <noscript><img src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
+                  class="works_image"></noscript>
+            </figure>
+          </div>
         </div>
 
         <div class="context fade_in_sequence2 no_fade">
@@ -144,13 +147,13 @@
           <div class="side_grids_8of12">
             <div class="content_clusters fade_in_sequence2 no_fade">
               <div>
-                <div class="large_section scroll_fade" data-aos="fade">
+                <div class="large_section" data-aos="fade">
                   <h2>The Goal</h2>
                   <p>Design a compact view for this 👇 to save experienced users time and effort when working with
                     competitor intel.</p>
                 </div>
 
-                <div class="content_image scroll_fade" data-aos="fade">
+                <div class="content_image" data-aos="fade">
                   <figure>
                     <img src="img/ListView-images/ListView-A-initialdesign-lowres.jpg"
                       data-src="img/ListView-images/ListView-A-initialdesign.jpg"
@@ -286,14 +289,14 @@
               </div>
 
               <div class="content_clusters fade_in_sequence2 no_fade">
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Compact</h2>
                     <p>Streamline work processes by tripling the amount of list items shown at a time, maximizing
                       content while minimizing scrolling.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/ListView-images/ListView-F-beforeafter-lowres.jpg"
                         data-src="img/ListView-images/ListView-F-beforeafter.jpg"
@@ -305,14 +308,14 @@
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Digestible</h2>
                     <p>The most critical pieces of info are shown at a glance, while the rest only appear when
                       users take a deeper dive.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/ListView-images/ListView-G-states-lowres.jpg"
                         data-src="img/ListView-images/ListView-G-states.jpg"
@@ -324,33 +327,31 @@
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Synced</h2>
                     <p>Coordinated efforts were made to ensure a smooth dual release with a closely related feature.</p>
                   </div>
 
-                  <div class="stacked_images" data-aos="fade">
-                    <div class="content_image">
-                      <figure>
-                        <img src="img/ListView-images/ListView-H-bulkedit-lowres.jpg"
-                          data-src="img/ListView-images/ListView-H-bulkedit.jpg"
-                          alt="Bulk Edit integration with List View." class="lazyload works_image">
-                        <noscript><img src="img/ListView-images/ListView-H-bulkedit.jpg"
-                            alt="Bulk Edit integration with List View." class="works_image"></noscript>
-                      </figure>
-                    </div>
+                  <div class="content_image">
+                    <figure>
+                      <img src="img/ListView-images/ListView-H-bulkedit-lowres.jpg"
+                        data-src="img/ListView-images/ListView-H-bulkedit.jpg"
+                        alt="Bulk Edit integration with List View." class="lazyload works_image">
+                      <noscript><img src="img/ListView-images/ListView-H-bulkedit.jpg"
+                          alt="Bulk Edit integration with List View." class="works_image"></noscript>
+                    </figure>
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Scalable</h2>
                     <p>Designed with future features in mind for easy integration—and to avoid pissing off the devs.
                     </p>
                   </div>
 
-                  <div class="stacked_images" data-aos="fade">
+                  <div class="stacked_images">
                     <div class="content_image">
                       <figure>
                         <img src="img/ListView-images/ListView-I-relatedalerts-lowres.jpg"
@@ -378,10 +379,10 @@
         </div>
 
         <div class="directory" data-aos="fade">
-          <div class="side_grids_8of12 fade_in_sequence2 no_fade transition-DesignSystem-small">
+          <div class="side_grids_8of12 fade_in_sequence2 no_fade">
             <a href="DesignSystem.html">
               <div>
-                <figure>
+                <figure id="DesignSystem-Enter" onmouseover="DesignSystemTransition()">
                   <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
                     data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
                     class="lazyload works_image">
@@ -430,7 +431,7 @@
 
         <div id="copyright">
           <p>Template-free. Made with care & lo-fi hip hop.
-            <br>© 2023 Nicholas Ko
+            <br>© 2024 Nicholas Ko
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <noscript>
     <style>
@@ -58,23 +58,25 @@
         <div id="project_intro">
         </div>
 
-        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade">
-          <figure>
-            <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
-              alt="LEGO Storybricks preview." class="lazyload works_image">
-            <noscript><img src="img/LEGO-images/LEGO-preview.jpg" alt="LEGO Storybricks preview."
-                class="works_image"></noscript>
-          </figure>
+        <div data-aos="fade" data-aos-duration="350">
+          <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade">
+            <figure id="LEGO-Exit" class="transition-LEGO">
+              <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
+                alt="LEGO Storybricks preview." class="lazyload works_image">
+              <noscript><img src="img/LEGO-images/LEGO-preview.jpg" alt="LEGO Storybricks preview."
+                  class="works_image"></noscript>
+            </figure>
+          </div>
         </div>
+
 
         <div class="context fade_in_sequence2 no_fade">
           <div class="project_heading side_grids_8of12">
             <h1 data-aos="fade">LEGO Storybricks</h1>
             <p data-aos="fade">LEGO Storybricks is a conceptual tablet application that facilitates interactive
-              storytelling by
-              interweaving LEGO with communication technology. It aims to connect parents separated from their children
-              by distance in order to maintain healthy relationships with their kids and to cultivate early childhood
-              growth and development.</p>
+              storytelling by interweaving LEGO with communication technology. It aims to connect parents separated from
+              their children by distance in order to maintain healthy relationships with their kids and to cultivate
+              early childhood growth and development.</p>
 
             <p id="disclaimer" data-aos="fade">Note: Though this design concept utilizes LEGO and its brand, it is
               purely conceptual and
@@ -242,55 +244,55 @@
                 <h1 class="fade_in_sequence2 no_fade">The Solution</h1>
               </div>
 
-              <div class="content_clusters fade_in_sequence2 no_fade">
-                <div>
-                  <div class="large_section" data-aos="fade">
+              <div class="content_clusters LEGO_solutions fade_in_sequence2 no_fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Story Selection</h2>
                     <p>While children choose stories, parents confirm their children's choices by assessing details such
                       as estimated duration to decide if it will provide a fair experience.</p>
                   </div>
 
-                  <div class="video_wrapper" data-aos="fade">
+                  <div class="video_wrapper">
                     <video autoplay loop muted playsinline src="img/LEGO-images/LEGO-F-storyselection.mp4"
                       allowfullscreen title="LEGO Storybricks Planet Selecton"></video>
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Identifying Emotions</h2>
                     <p>Children can choose characters' facial expressions, which allows them to explore a range of
                       feelings without feeling any negative emotions themselves.</p>
                   </div>
 
-                  <div class="video_wrapper" data-aos="fade">
+                  <div class="video_wrapper">
                     <video autoplay loop muted playsinline src="img/LEGO-images/LEGO-G-emotions.mp4" allowfullscreen
                       title="LEGO Storybricks Identifying Emotions"></video>
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Build Moments</h2>
                     <p>A playful animation signifies the big shift from role-playing to creative problem solving. Here,
                       children get to build things to help overcome whatever obstacle the story presents.</p>
                   </div>
 
-                  <div class="video_wrapper" data-aos="fade">
+                  <div class="video_wrapper">
                     <video autoplay loop muted playsinline src="img/LEGO-images/LEGO-H-buildmoment.mp4" allowfullscreen
                       title="LEGO Storybricks Build Moments"></video>
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Saving Builds</h2>
                     <p>When a story concludes, builds made for the story can be saved as stickers. These act as mementos
                       of time spent together, and allows parents to look back at how their kids have grown over time.
                     </p>
                   </div>
 
-                  <div class="video_wrapper" data-aos="fade">
+                  <div class="video_wrapper">
                     <video autoplay loop muted playsinline src="img/LEGO-images/LEGO-I-savingbuilds.mp4" allowfullscreen
                       title="LEGO Storybricks Saving Builds"></video>
                   </div>
@@ -314,7 +316,7 @@
           <div class="side_grids_8of12 fade_in_sequence2 no_fade transition-ListView-small">
             <a href="ListView.html">
               <div>
-                <figure>
+                <figure id="ListView-Enter" onmouseover="ListViewTransition()">
                   <img src="img/ListView-images/ListView-preview-lowres.jpg"
                     data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
                     class="lazyload works_image">
@@ -363,7 +365,7 @@
 
         <div id="copyright">
           <p>Template-free. Made with care & lo-fi hip hop.
-            <br>© 2023 Nicholas Ko
+            <br>© 2024 Nicholas Ko
           </p>
         </div>
       </div>

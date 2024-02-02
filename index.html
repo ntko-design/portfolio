@@ -58,13 +58,13 @@
       <section>
         <div class="homepage_bio">
           <div id="homepage_intro" class="side_grids_8of12">
-            <div id="blurb">
+            <div id="blurb" data-aos="fade">
               <h1 class="fade_in_sequence1 no_fade">Nic<mark>hola</mark>s Ko.</h1>
               <p class="fade_in_sequence2 no_fade">
                 Product design. UX research. Design systems. Pero no hablo español. I've previously worked with:</p>
             </div>
 
-            <div id="work_experience">
+            <div id="work_experience" data-aos="fade">
               <div class="companies fade_in_sequence3 no_fade">
                 <a href="https://research.samsung.com/srca"><img class="company_logo"
                     src="img/site-wide-assets/Samsung-Logo.svg" alt="Samsung Logo"></a>
@@ -83,106 +83,117 @@
         </div>
 
         <div id="project_collection" class="side_grids_8of12">
-          <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="ListView.html" data-aos="fade">
-              <figure id="ListView-Prev-S" class="transition-ListView-small" onclick="ListViewTransition()">
-                <img src="img/ListView-images/ListView-preview-lowres.jpg"
-                  data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
-                  class="lazyload works_image">
-                <noscript><img src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
-                    class="works_image"></noscript>
-              </figure>
-            </a>
-
-            <div data-aos="fade">
-              <a href="ListView.html" onclick="ListViewTransition()">
-                <h2>Alerts List View</h2>
+          <div data-aos="fade">
+            <div class="project_preview fade_in_sequence3 no_fade" data-aos="fade">
+              <a href="ListView.html">
+                <figure id="ListView-Enter" onmouseover="ListViewTransition()">
+                  <img src="img/ListView-images/ListView-preview-lowres.jpg"
+                    data-src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
+                    class="lazyload works_image">
+                  <noscript><img src="img/ListView-images/ListView-preview.jpg" alt="List View preview."
+                      class="works_image"></noscript>
+                </figure>
               </a>
-              <h3 class="subheading roles_skills">B2B SaaS / Desktop / Feature Release</h3>
-              <p>Saving experts time with a display mode that presents more competitor information simultaneously.</p>
+
+              <div>
+                <a href="ListView.html" onmouseover="ListViewTransition()">
+                  <h2>Alerts List View</h2>
+                </a>
+                <h3 class="subheading roles_skills">B2B SaaS / Desktop / Feature Release</h3>
+                <p>Saving experts time with a display mode that presents more competitor information simultaneously.</p>
+              </div>
             </div>
           </div>
 
-          <div class="project_preview fade_in_sequence3 no_fade transition-DesignSystem-small">
-            <a href="DesignSystem.html" data-aos="fade">
-              <figure>
-                <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
-                  data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
-                  class="lazyload works_image">
-                <noscript><img src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
-                    class="works_image"></noscript>
-              </figure>
-            </a>
-
-            <div data-aos="fade">
+          <div data-aos="fade">
+            <div class="project_preview fade_in_sequence3 no_fade">
               <a href="DesignSystem.html">
-                <h2>Klue Design System</h2>
+                <figure id="DesignSystem-Enter" onmouseover="DesignSystemTransition()">
+                  <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
+                    data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
+                    class="lazyload works_image">
+                  <noscript><img src="img/DesignSystem-images/DesignSystem-preview.jpg"
+                      alt="Klue Design System preview." class="works_image"></noscript>
+                </figure>
               </a>
-              <h3 class="subheading roles_skills">B2B SaaS / Desktop & Mobile / Design System</h3>
-              <p>Unifying the product and accelerating implementation through the creation and maintenance of design
-                components.</p>
+
+              <div>
+                <a href="DesignSystem.html" onmouseover="DesignSystemTransition()">
+                  <h2>Klue Design System</h2>
+                </a>
+                <h3 class="subheading roles_skills">B2B SaaS / Desktop & Mobile / Design System</h3>
+                <p>Unifying the product and accelerating implementation through the creation and maintenance of design
+                  components.</p>
+              </div>
             </div>
           </div>
 
-          <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="LEGO.html" data-aos="fade">
-              <figure>
-                <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
-                  alt="LEGO Storybricks preview." class="lazyload works_image">
-                <noscript><img src="img/LEGO-images/LEGO-preview.jpg" alt="LEGO Storybricks preview."
-                    class="works_image"></noscript>
-              </figure>
-            </a>
-
-            <div data-aos="fade">
+          <div data-aos="fade">
+            <div class="project_preview fade_in_sequence3 no_fade">
               <a href="LEGO.html">
-                <h2>LEGO Storybricks</h2>
+                <figure id="LEGO-Enter" onmouseover="LEGOTransition()">
+                  <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
+                    alt="LEGO Storybricks preview." class="lazyload works_image">
+                  <noscript><img src="img/LEGO-images/LEGO-preview.jpg" alt="LEGO Storybricks preview."
+                      class="works_image"></noscript>
+                </figure>
               </a>
-              <h3 class="subheading roles_skills">UX Design Student Project / Tablet / Product Concept</h3>
-              <p>Connecting children and parents through interactive storytelling with LEGO—no matter the distance.</p>
+
+              <div>
+                <a href="LEGO.html" onmouseover="LEGOTransition()">
+                  <h2>LEGO Storybricks</h2>
+                </a>
+                <h3 class="subheading roles_skills">UX Design Student Project / Tablet / Product Concept</h3>
+                <p>Connecting children and parents through interactive storytelling with LEGO—no matter the distance.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="project_preview fade_in_sequence3 no_fade">
-            <!-- <a href="TxTSquad.html"> -->
-            <figure data-aos="fade">
-              <img src="img/TxTSquad-images/TxTSquad-preview-lowres.jpg"
-                data-src="img/TxTSquad-images/TxTSquad-preview.jpg" alt="TxTSquad preview."
-                class="lazyload works_image">
-              <noscript><img src="img/TxTSquad-images/TxTSquad-preview.jpg" alt="TxTSquad preview."
-                  class="works_image"></noscript>
-            </figure>
-            <!-- </a> -->
-
-            <div data-aos="fade">
+          <div data-aos="fade">
+            <div class="project_preview fade_in_sequence3 no_fade">
               <!-- <a href="TxTSquad.html"> -->
-              <!-- <h2>TxTSquad - Texting Platform for Professionals</h2> -->
-              <h2>TxTSquad - Coming soon!</h2>
-              <!-- </a> -->
-              <h3 class="subheading roles_skills">B2B SaaS / Desktop / Web Application Design</h3>
-              <!-- <p>Streamlining communication to help medical office assistants efficiently schedule patients and reduce
-              no-shows.</p> -->
-              <p>Portfolio piece still in progress. Check back later!</p>
-            </div>
-          </div>
-
-          <div class="project_preview fade_in_sequence3 no_fade">
-            <a href="SideProjects.html" data-aos="fade">
               <figure>
-                <img src="img/SideProject-images/SideProjects-preview-lowres.jpg"
-                  data-src="img/SideProject-images/SideProjects-preview.jpg" alt="Klue Design System preview."
+                <img src="img/TxTSquad-images/TxTSquad-preview-lowres.jpg"
+                  data-src="img/TxTSquad-images/TxTSquad-preview.jpg" alt="TxTSquad preview."
                   class="lazyload works_image">
-                <noscript><img src="img/SideProject-images/SideProjects-preview.jpg" alt="Klue Design System preview."
+                <noscript><img src="img/TxTSquad-images/TxTSquad-preview.jpg" alt="TxTSquad preview."
                     class="works_image"></noscript>
               </figure>
-            </a>
+              <!-- </a> -->
 
-            <div data-aos="fade">
+              <div>
+                <!-- <a href="TxTSquad.html"> -->
+                <!-- <h2>TxTSquad - Texting Platform for Professionals</h2> -->
+                <h2>TxTSquad - Coming soon!</h2>
+                <!-- </a> -->
+                <h3 class="subheading roles_skills">B2B SaaS / Desktop / Web Application Design</h3>
+                <!-- <p>Streamlining communication to help medical office assistants efficiently schedule patients and reduce
+                no-shows.</p> -->
+                <p>Portfolio piece still in progress. Check back later!</p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade">
+            <div class="project_preview fade_in_sequence3 no_fade">
               <a href="SideProjects.html">
-                <h2>Side Projects</h2>
+                <figure id="SideProjects-Enter" onmouseover="SideProjectsTransition()">
+                  <img src="img/SideProject-images/SideProjects-preview-lowres.jpg"
+                    data-src="img/SideProject-images/SideProjects-preview.jpg" alt="Klue Design System preview."
+                    class="lazyload works_image">
+                  <noscript><img src="img/SideProject-images/SideProjects-preview.jpg" alt="Klue Design System preview."
+                      class="works_image"></noscript>
+                </figure>
               </a>
-              <h3 class="subheading roles_skills">Logos & Branding / Vector & Graphic Design</h3>
-              <p>A compilation of personal projects done for fun, as well as miscellaneous freelance work.</p>
+
+              <div>
+                <a href="SideProjects.html" onmouseover="SideProjectsTransition()">
+                  <h2>Side Projects</h2>
+                </a>
+                <h3 class="subheading roles_skills">Logos & Branding / Vector & Graphic Design</h3>
+                <p>A compilation of personal projects done for fun, as well as miscellaneous freelance work.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -220,7 +231,7 @@
 
         <div id="copyright">
           <p>Template-free. Made with care & lo-fi hip hop.
-            <br>© 2023 Nicholas Ko
+            <br>© 2024 Nicholas Ko
           </p>
         </div>
       </div>
@@ -243,3 +254,46 @@
 </body>
 
 </html>
+
+
+<!-- The currently realistic ones
+https://www.leah-lee.com/
+https://www.jenniferywong.com/
+https://www.billytseng.com/
+https://yuha.work/
+
+Design Systems Case Studies
+https://www.lydiashan.com/projects/building-and-scaling-a-design-system
+https://www.gabriellauxui.com/design-system
+https://www.jarvismoore.net/portfolio/diesl-design-system
+
+The Stylish Ones
+https://www.rachelhow.com/
+http://www.umadii.co/
+https://www.danielchew.net/
+https://www.richardjiang.com/
+https://www.instrument.com/work/nike-digital-design-system
+http://www.jordanma.com/ (Previously, now WIP)
+
+Jordan
+https://jordanyep.com/
+
+Other references
+Bestfolios - https://www.bestfolios.com/portfolios?page=1
+Barba.js Tutorial - https://kontra.agency/barba-js-tutorial/
+Material Design - https://m3.material.io/components/buttons/overview
+0 JS Page transitions - https://www.youtube.com/watch?v=oFhHeeCw_bc
+Image to image Page transitions - https://www.youtube.com/watch?v=RhHXKAwn5pw
+Page transition API, Google - https://developer.chrome.com/docs/web-platform/view-transitions/
+Portfolio presentation structure - https://twitter.com/intercomdesign/status/1100019988663074816
+Ryan Yao Resume Template - https://www.figma.com/community/file/1268329452085730853/simple-resume-template
+A Small Studio, Connect w Designers - https://docs.google.com/spreadsheets/d/1HyAHboeFjb8bcX3JtkeM5XNwTTlt1t7KOgMt5Hllivo/edit#gid=0
+Killer portfolio notes - https://selene-chang.notion.site/designers-are-scary-killer-portfolios-935fabe98b344035aa0ef3db7eafd5c7
+
+
+
+https://txtsquad.com/blog/introducing-the-new-txtsquad-experience-our-new-ui-and-features -->
+
+
+<!-- https://www.figma.com/file/QiyHszM40Ed1QAjTWgedPd/Kone-Zone?type=design&node-id=115-27884&mode=design&t=gmnK9fyUMsWjHZ6d-0
+https://www.figma.com/file/hnythMtLuZ9qCfe6MAnR7V/Klue-Component-Library?type=design&node-id=2839-34059&mode=design&t=9Lu5xRARTSDC02Ci-0 -->

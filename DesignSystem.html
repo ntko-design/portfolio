@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lexend:300,400,500,600,700|Roboto:300,400,600,700"
     rel="stylesheet">
   <link rel="icon" href="img/site-wide-assets/blue-logo.svg">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <noscript>
     <style>
@@ -58,14 +58,16 @@
         <div id="project_intro">
         </div>
 
-        <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade transition-DesignSystem-large">
-          <figure>
-            <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
-              data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
-              class="lazyload works_image">
-            <noscript><img src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
-                class="works_image"></noscript>
-          </figure>
+        <div data-aos="fade" data-aos-duration="350">
+          <div class="top_project_content side_grids_10of12 fade_in_sequence1 no_fade transition-DesignSystem-large">
+            <figure id="DesignSystem-Exit" class="transition-DesignSystem">
+              <img src="img/DesignSystem-images/DesignSystem-preview-lowres.jpg"
+                data-src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
+                class="lazyload works_image">
+              <noscript><img src="img/DesignSystem-images/DesignSystem-preview.jpg" alt="Klue Design System preview."
+                  class="works_image"></noscript>
+            </figure>
+          </div>
         </div>
 
         <div class="context fade_in_sequence2 no_fade">
@@ -231,14 +233,14 @@
               </div>
 
               <div class="content_clusters fade_in_sequence2 no_fade">
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Branded</h2>
                     <p>Details like border radii and drop shadows were incorporated to establish a unified design
                       language across components.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-E-designlanguage-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-E-designlanguage.jpg"
@@ -249,13 +251,13 @@
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Tokenized</h2>
                     <p>Token values in 4px intervals were used to determine variant sizes and component spacing.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-F-tokens-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-F-tokens.jpg"
@@ -268,14 +270,14 @@
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Semantic</h2>
                     <p>Colours were chosen to represent 'Klue's voice,' important and interactive elements, as well as
                       semantic content.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-G-colours-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-G-colours.jpg"
@@ -288,14 +290,14 @@
                   </div>
                 </div>
 
-                <div>
-                  <div class="large_section" data-aos="fade">
+                <div class="solution_content" data-aos="fade">
+                  <div class="large_section">
                     <h2>Accessible</h2>
                     <p>Careful considerations were made to ensure designs are responsive and high contrast to comply
                       with WCAG 3.0 standards.</p>
                   </div>
 
-                  <div class="content_image" data-aos="fade">
+                  <div class="content_image">
                     <figure>
                       <img src="img/DesignSystem-images/DesignSystem-H-WCAG-lowres.jpg"
                         data-src="img/DesignSystem-images/DesignSystem-H-WCAG.jpg"
@@ -327,7 +329,7 @@
           <div class="side_grids_8of12 fade_in_sequence2 no_fade">
             <a href="LEGO.html">
               <div>
-                <figure>
+                <figure id="LEGO-Enter" onmouseover="LEGOTransition()">
                   <img src="img/LEGO-images/LEGO-preview-lowres.jpg" data-src="img/LEGO-images/LEGO-preview.jpg"
                     alt="LEGO Storybricks preview." class="lazyload works_image">
                   <noscript><img src="img/LEGO-images/LEGO-preview.jpg" alt="LEGO Storybricks preview."
@@ -375,7 +377,7 @@
 
         <div id="copyright">
           <p>Template-free. Made with care & lo-fi hip hop.
-            <br>© 2023 Nicholas Ko
+            <br>© 2024 Nicholas Ko
           </p>
         </div>
       </div>
